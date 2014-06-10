@@ -16,8 +16,8 @@ group :test do
   #gem 'growl', '1.0.3'
 end
 
-gem 'sass-rails', '4.0.1'
-gem 'bootstrap-sass', '2.3.2.0'
+gem 'sass-rails', '>= 3.2'
+gem 'bootstrap-sass', :github => 'thomas-mcdonald/bootstrap-sass'
 gem 'sprockets', '2.11.0'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
